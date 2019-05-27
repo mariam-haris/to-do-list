@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#title{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 40px;
+}
+form{
+    text-align: center;
+    margin-bottom: 70px;
+}
+form .input , form button{
+    padding: 10px;
+    width: 288px;
+    border-radius: 20px;
+    border: 0;
+    background-color: aliceblue;
+}
+form button{
+    width: 110px;
+    background-color: #6577f7;
+    color: #fff;
+}
+.items{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 10px;
+    text-align: center;
+}
+.items li , .items h4{
+    margin-bottom: 10px;
+}
+.hold , .progress , .review , .approves{
+    text-align: -webkit-center;
+}
+.items h4{
+    background-color: antiquewhite;
+    width: 50%;
+    padding: 12px;
+}
+.pink-color{
+    background-color: antiquewhite;
+    width: 70%;
+    padding: 12px;
+    list-style: none;
+}
+.hide{
+    display: none;
+}
+.style {
+    height: 380px;
+    background-color: #ddd;
+}
